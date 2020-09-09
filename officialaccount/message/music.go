@@ -19,6 +19,7 @@ func NewMusic(title, description, musicURL, hQMusicURL, thumbMediaID string) *Mu
 	music.Music.Title = title
 	music.Music.Description = description
 	music.Music.MusicURL = musicURL
+	music.Music.HQMusicURL = hQMusicURL
 	music.Music.ThumbMediaID = thumbMediaID
 	return music
 }
